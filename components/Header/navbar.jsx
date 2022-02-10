@@ -13,6 +13,9 @@ export default function index() {
         <li className="text-white font-bold hover:text-blue-400">
           <Link href="/profile/detail">Profile</Link>
         </li>
+        <li className="text-white font-bold hover:text-blue-400">
+          <Link href="/blog">Blog</Link>
+        </li>
       </ul>
     </header>
   );
