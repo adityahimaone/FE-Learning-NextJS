@@ -1,9 +1,9 @@
-import React from "react";
+import Layout from "../../layouts/mainLayout";
 
 export default function detail() {
   return (
-    <div>
+    <Layout>
       <h1>User Detail Page</h1>
-    </div>
+    </Layout>
   );
 }
