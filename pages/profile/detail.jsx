@@ -2,7 +2,7 @@ import Layout from "../../layouts/mainLayout";
 
 export default function detail() {
   return (
-    <Layout>
+    <Layout pageTitle="Detail User">
       <h1>User Detail Page</h1>
     </Layout>
   );

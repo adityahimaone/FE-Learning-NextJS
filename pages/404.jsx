@@ -11,7 +11,6 @@ export default function Custom404() {
     }, 3000);
   }, []);
 
-  // make a use state text coundown
   const [textCount, setCount] = useState(3);
 
   useEffect(() => {
