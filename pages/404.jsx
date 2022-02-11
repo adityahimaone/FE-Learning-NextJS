@@ -20,9 +20,7 @@ export default function Custom404() {
     return () => clearInterval(interval);
   }, [textCount]);
 
-
   return (
-    // div tailwind  classnmae item in center page
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="flex flex-col text-center">
         <h1 className="text-2xl text-blue-500">Oppps!! Page is Not Found</h1>

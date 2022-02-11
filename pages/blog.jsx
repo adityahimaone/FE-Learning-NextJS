@@ -12,8 +12,13 @@ export default function blog(props) {
         </h1>
         <div className="grid grid-cols-2 gap-4">
           {blogData.map((item) => (
-            <div key={item.id} className="bg-blue-300 rounded-md p-1 backdrop-blur-xl shadow-xl">
-              <h2 className="text-lg text-center font-semibold">{item.title}</h2>
+            <div
+              key={item.id}
+              className="bg-blue-300 rounded-md px-4 py-5 backdrop-blur-xl shadow-xl"
+            >
+              <h2 className="text-lg text-center font-semibold">
+                {item.title}
+              </h2>
               <p className="text-gray-600">{item.body}</p>
             </div>
           ))}
