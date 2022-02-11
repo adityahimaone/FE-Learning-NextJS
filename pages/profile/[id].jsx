@@ -6,11 +6,8 @@ export default function ProfilDynamic(props) {
   const router = useRouter();
   const { id } = router.query;
 
-  console.log(UserData);
   return (
     <Layout>
-      {/* add back button */}
-
       <h1 className="text-center text-xl font-semibold p-4">
         Profile Detail {id}
       </h1>

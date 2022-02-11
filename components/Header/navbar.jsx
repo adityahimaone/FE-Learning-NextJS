@@ -1,11 +1,14 @@
-import { useContext } from "react";
 import Link from "next/link";
-import AppContext from "../../context/appContext";
+import AppContext, { useAppContext } from "../../context/appContext";
 
 export default function index() {
-  const context = useContext(AppContext);
+  const context = useAppContext(AppContext);
   return (
-    <header className="p-4 bg-blue-500 shadow-lg bg-clip-padding bg-opacity-60 border border-gray-200 backdrop-blur-md ">
+    <header
+      className={`p-4  shadow-lg bg-clip-padding bg-opacity-60 border border-gray-200 backdrop-blur-md ${
+        context.switchTheme === "dark" ? "bg-gray-900" : "bg-blue-500"
+      }`}
+    >
       <div className="flex justify-between container mx-auto">
         <div className="mx-4">
           <ul className="flex flex-row gap-4">
@@ -20,6 +23,9 @@ export default function index() {
             </li>
             <li className="text-white font-bold hover:text-blue-400">
               <Link href="/blog">Blog</Link>
+            </li>
+            <li className="text-white font-bold hover:text-blue-400">
+              <Link href="/setting">Setting</Link>
             </li>
           </ul>
         </div>
