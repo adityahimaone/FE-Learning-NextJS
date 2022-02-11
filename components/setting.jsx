@@ -2,8 +2,8 @@ import React from "react";
 import AppContext, { useAppContext } from "../context/appContext";
 
 export default function setting() {
-  const { context, reducer } = useAppContext(AppContext);
-  console.log(context, reducer);
+  const { context } = useAppContext(AppContext);
+
   return (
     <div>
       <h1 className="text-center text-xl font-bold p-4">Setting User</h1>
