@@ -3,6 +3,8 @@ import styles from "../styles/About.module.css";
 import Layout from "../layouts/mainLayout";
 import Setting from "../components/setting";
 import DisplayTheme from "../components/DisplayTheme";
+import TryReducer from "../components/TryReducer";
+import ReducerState from "../components/ReducerState";
 
 export default function about() {
   return (
@@ -14,6 +16,8 @@ export default function about() {
       </div>
       <Setting />
       <DisplayTheme />
+      <TryReducer />
+      <ReducerState />
     </Layout>
   );
 }

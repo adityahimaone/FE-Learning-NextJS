@@ -2,7 +2,7 @@ import Link from "next/link";
 import AppContext, { useAppContext } from "../../context/appContext";
 
 export default function index() {
-  const context = useAppContext(AppContext);
+  const { context } = useAppContext(AppContext);
   return (
     <header
       className={`p-4  shadow-lg bg-clip-padding bg-opacity-60 border border-gray-200 backdrop-blur-md ${

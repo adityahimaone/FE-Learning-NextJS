@@ -1,7 +1,7 @@
 import AppContext, { useAppContext } from "../context/appContext";
 
 export default function ToggleTheme() {
-  const context = useAppContext(AppContext);
+  const { context } = useAppContext(AppContext);
   return (
     <button
       type="button"
