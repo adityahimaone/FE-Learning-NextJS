@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Layout from "../../layouts/mainLayout";
+import Layout from "@/layouts/mainLayout";
 
 export default function detail(props) {
   const { dataUsers } = props;

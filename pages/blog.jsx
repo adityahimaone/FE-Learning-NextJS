@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "../layouts/mainLayout";
+import Layout from "@/layouts/mainLayout";
 
 export default function blog(props) {
   const { posts: initialPosts } = props;

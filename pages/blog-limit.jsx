@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "../layouts/mainLayout";
+import Layout from "@/layouts/mainLayout";
 
 export default function BlogLimit(props) {
   const { posts: initialPosts } = props;
@@ -13,8 +13,6 @@ export default function BlogLimit(props) {
     setPosts(newPosts.slice(0, start));
     setStart(start + 10);
   };
-
-  console.log(posts);
 
   return (
     <Layout pageTitle="Blog">
