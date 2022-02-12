@@ -7,10 +7,8 @@ export default function BlogLimit(props) {
   const [posts, setPosts] = useState(initialPosts.slice(0, 10));
   const [start, setStart] = useState(20);
 
-  const limitPosts = async () => {
-    const resp = await fetch("https://jsonplaceholder.typicode.com/posts");
-    const newPosts = await resp.json();
-    setPosts(newPosts.slice(0, start));
+  const limitPosts = () => {
+    setPosts(initialPosts.slice(0, start));
     setStart(start + 10);
   };
 

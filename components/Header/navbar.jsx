@@ -28,6 +28,9 @@ export default function index() {
               <Link href="/blog-limit">Blog (Limit)</Link>
             </li>
             <li className="text-white font-bold hover:text-blue-400">
+              <Link href="/dashboard">Dashboard</Link>
+            </li>
+            <li className="text-white font-bold hover:text-blue-400">
               <Link href="/setting">Setting</Link>
             </li>
           </ul>

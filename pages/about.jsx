@@ -5,6 +5,7 @@ import Setting from "@/components/Setting";
 import DisplayTheme from "@/components/DisplayTheme";
 import TryReducer from "@/components/TryReducer";
 import ReducerState from "@/components/ReducerState";
+import Login from "@/components/Login";
 
 export default function about() {
   return (
@@ -24,6 +25,7 @@ export default function about() {
       <DisplayTheme />
       <TryReducer />
       <ReducerState />
+      <Login />
     </Layout>
   );
 }
