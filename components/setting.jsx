@@ -1,7 +1,7 @@
 import React from "react";
 import AppContext, { useAppContext } from "../context/appContext";
 
-export default function setting() {
+export default function Setting() {
   const { context } = useAppContext(AppContext);
 
   return (
