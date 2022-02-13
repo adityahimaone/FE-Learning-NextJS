@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "@/styles/About.module.css";
 import Layout from "@/layouts/mainLayout";
-import Setting from "@/components/Setting";
+// import Setting from "@/components/Setting";
 import DisplayTheme from "@/components/DisplayTheme";
 import TryReducer from "@/components/TryReducer";
 import ReducerState from "@/components/ReducerState";
@@ -21,7 +21,7 @@ export default function About() {
           alt="about"
         />
       </div>
-      <Setting />
+      {/* <Setting /> */}
       <DisplayTheme />
       <TryReducer />
       <ReducerState />
