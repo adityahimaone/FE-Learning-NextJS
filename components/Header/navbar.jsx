@@ -36,7 +36,15 @@ export default function index() {
           </ul>
         </div>
         <div className="mx-4">
-          <span>Hi, {context.user ? context.user.username : "Null"}</span>
+          <span className="mr-4">
+            Hi, {context.user ? context.user.username : "Null"}
+          </span>
+          <button
+            type="button"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 rounded-full"
+          >
+            <Link href="/login">Login</Link>
+          </button>
         </div>
       </div>
     </header>

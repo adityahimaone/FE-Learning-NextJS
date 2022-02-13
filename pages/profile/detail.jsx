@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Layout from "@/layouts/mainLayout";
 
-export default function detail(props) {
+export default function Detail(props) {
   const { dataUsers } = props;
   const router = useRouter();
 

@@ -7,7 +7,7 @@ import TryReducer from "@/components/TryReducer";
 import ReducerState from "@/components/ReducerState";
 import Login from "@/components/Login";
 
-export default function about() {
+export default function About() {
   return (
     <Layout pageTitle="About">
       <div className="text-center p-4">
