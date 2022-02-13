@@ -18,7 +18,7 @@ export default function Setting() {
             className="px-1 rounded-md border-2 border-gray-400"
             name="username"
             placeholder="Change Username"
-            value={context.user.username ?? ""}
+            value={context?.user?.username ?? ""}
           />
         </div>
       </div>
