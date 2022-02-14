@@ -4,7 +4,7 @@ import Layout from "@/layouts/mainLayout";
 export default function Login() {
   return (
     <Layout pageTitle="Login">
-      <div className="flex w-full border justify-center items-center h-full">
+      <div className="flex w-full justify-center items-center h-full">
         <div className="flex flex-col max-w-md border bg-blue-200 p-10 rounded-lg">
           <h1 className="text-center text-xl text-blue-700 font-bold mb-4">
             Login Page
